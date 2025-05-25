@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+button {
+    
+  padding: 0.5rem 0.75rem;        /* py-2 px-3 */
+  border: 1px solid #D1D5DB;      /* border-gray-300 */
+  border-radius: 0.25rem;         /* rounded */
+  font-size: 0.875rem;            /* text-sm */
+  width: 100%; 
+  border: 1px solid #D1D5DB;      /* border-gray-300 */
+  color: #374151;                 /* text-gray-700 */
+  background-color: transparent;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  background-color: #F3F4F6;
+  cursor: pointer;
+}
